@@ -1,0 +1,167 @@
+.logo__link {
+  padding: 6px;
+  background: #001c64;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  animation: kml-slidedown 0.5s ease;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.logo__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo__link {
+  margin-left: 1.6vw;
+  margin-right: 1.6vw;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  fill: #828282;
+  display: block;
+  transform: rotate(90deg);
+  flex-shrink: 0;
+}
+
+.inputContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.form {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.input::placeholder {
+  color: #888;
+  font-size: 14px;
+  opacity: 1;
+}
+
+.searchButton {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 9px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 44px;
+  height: 41px;
+  fill: #fff;
+}
+
+.searchButton .searchIcon svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+.header__banner {
+  margin-left: auto;
+}
+
+.logo__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 10px 20px;
+}
+/* .navbar__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+
+.menu__toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu__button {
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu_bar {
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: #828282;
+  margin: 4px 0;
+}
+
+.menu_label {
+  margin-left: 10px;
+  font-size: 14px;
+
+  font-weight: bold;
+}
+
+.nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__item {
+  display: flex;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #000;
+}
+
+.nav__link svg {
+  width: 20px;
+  height: 20px;
+}
+
+.nav__link svg path {
+  fill: #828282;
+}

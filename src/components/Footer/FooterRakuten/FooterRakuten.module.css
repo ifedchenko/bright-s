@@ -1,0 +1,54 @@
+.footer__nav__products {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  height: 61px;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer__nav__products__list {
+  flex-grow: 1;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  color: #777;
+}
+
+.footer__nav__products__list__item a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.select__country {
+  border: 0.1rem solid #ddd;
+  border-radius: 0.4rem;
+  color: #4a4a4a;
+  font-size: 14px;
+  width: 150px;
+  padding: 10px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+}
+
+.footer__nav__copyrights {
+  text-align: center;
+  color: #000;
+}
+
+.footer__nav__promo__list {
+  padding: 0 20px;
+  list-style: none;
+  text-decoration: underline;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__nav__promo__list_item {
+  width: 60px;
+}

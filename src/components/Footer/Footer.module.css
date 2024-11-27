@@ -1,0 +1,27 @@
+.footerContent {
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  opacity: 1;
+  background-color: white;
+}
+
+.showFirst,
+.showNext {
+  opacity: 0;
+}
+
+.showFirst {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.showNext {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
